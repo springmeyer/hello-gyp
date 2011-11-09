@@ -1,9 +1,16 @@
 # gyp hello world
 
-GYP uses a json config to generate builds project for
-various build tools like make, xcode, visual studio.
+[GYP can Generate Your Projects](http://code.google.com/p/gyp/).
 
-So its a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
+It is a pre-build system that uses a json config to generate optimized
+project files for various build tools like make, xcode, visual studio.
+
+For example, it is able to generate make or scons files that run fast.
+
+It is also able to generate xcode and visual studio files as if they were
+hand created - so cleaner to hand edit or extend.
+
+Its a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
 
 This demo shows how to build a hello world c++ library and command line program
 that uses it, using gyp to build the files needed by your preferred build tool.
