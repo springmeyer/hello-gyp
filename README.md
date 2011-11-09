@@ -38,6 +38,32 @@ Now grab this sample project:
    cd hello-gyp
 
 
+## no build system
+
+First, it's important to remember that simple codebases, like this
+"myapp" hello world, don't actually need a fancy build system at all
+so gyp would likely be overkill.
+
+You can build the library and program "by hand" like:
+
+    mkdir manual-build
+
+    # build static library
+    g++ -static -I./include -c ./src/implementation.cc -o manual-build/mylib.o
+    ar rcsT manual-build/libmylib.a manual-build/mylib.o
+
+    # build program and link the library
+    g++ -o manual-build/myapp  -I./include bin/myapp.cc -L./manual-build -lmylib
+
+### test
+
+    $ ./manual-build/myapp
+    hello
+
+But, as your projects grow, or you wish to have other projects build against this
+project, gyp can help.
+
+
 ## make
 
 ### build
@@ -47,7 +73,7 @@ Now grab this sample project:
 
 ### test
 
-    ./projects/makefiles/out/Default/myapp 
+    $ ./projects/makefiles/out/Default/myapp 
     hello
 
 
@@ -60,7 +86,7 @@ Now grab this sample project:
 
 ### test
 
-    ./projects/sconsfiles/Default/myapp 
+    $ ./projects/sconsfiles/Default/myapp 
     hello
 
 
@@ -74,9 +100,40 @@ Now grab this sample project:
 ### test
 
     # xcode does not respect subdirectory so `build` goes into the main directory
-    ./build/Default/myapp
+    $ ./build/Default/myapp
     hello
-    
+
+## ninja
+
+Ninja is a build system designed to be ultra fast.
+
+Install it like:
+
+    git clone git://github.com/martine/ninja.git
+    cd ninja
+    ./bootstrap
+    cp ninja /usr/local/bin/
+
+Make sure it works:
+
+    $ ninja
+    ninja: no work to do.
+
+Now go back to the hello-gyp project folder and build the sample:
+
+    gyp mylib.gyp --depth=. -f ninja
+    ninja -v -C out/Default/ -f build.ninja
+    # linking fails on 'ld: unknown option: --threads'
+    # so manually link:
+    cd out/Default
+    g++ -o myapp obj/bin/myapp.myapp.o obj/mylib.a -lz
+    cd ../../
+
+### test
+
+    $ ./out/Default/myapp 
+    hello
+
 
 ## Others
 
