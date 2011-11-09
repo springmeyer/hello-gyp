@@ -13,7 +13,8 @@ hand created - so cleaner to hand edit or extend.
 Its a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
 
 This demo shows how to build a hello world c++ library and command line program
-that uses it, using gyp to build the files needed by your preferred build tool.
+that uses it (called 'mylib'), using gyp to build the files needed by your 
+preferred build tool.
 
 See also: http://code.google.com/p/gyp/wiki/GypTesting
 
