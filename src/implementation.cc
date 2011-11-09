@@ -1,5 +1,4 @@
 #include <mylib/interface.h>
-
 #include <string>
 
 namespace MyLib {
@@ -14,5 +13,4 @@ std::string const& Message::get() {
 void Message::set(std::string const& data) {
     m_data = data;
 }
-
 };

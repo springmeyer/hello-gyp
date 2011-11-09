@@ -3,11 +3,8 @@
 #include <string>
 #include <iostream>
 
-int main(int argc, char **argv)
-{
-   MyLib::Message msg("hello");
-   
-   std::cout << msg.get() << "\n";
-
-   return 0;
+int main(int argc, char **argv) {
+    MyLib::Message msg("hello");
+    std::cout << msg.get() << "\n";
+    return 0;
 }

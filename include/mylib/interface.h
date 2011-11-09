@@ -1,5 +1,5 @@
-#ifndef INCLUDE_MYAPP_H_
-#define INCLUDE_MYAPP_H_
+#ifndef INCLUDE_MYLIB_INTERFACE_H_
+#define INCLUDE_MYLIB_INTERFACE_H_
 
 #include <string>
 
@@ -14,7 +14,6 @@ class Message {
  private:
     std::string m_data;
 };
-
 };
 
-#endif  // INCLUDE_MYAPP_H_
+#endif  // INCLUDE_MYLIB_INTERFACE_H_
