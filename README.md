@@ -18,6 +18,26 @@ preferred build tool.
 
 See also: http://code.google.com/p/gyp/wiki/GypTesting
 
+
+## Setup
+
+First install gyp if you do not have it already. It's just python:
+
+    svn checkout http://gyp.googlecode.com/svn/trunk/ gyp
+    cd gyp
+    sudo python setup.py install
+    
+Now you should have the `gyp` program on your `PATH`:
+
+    $ which gyp
+    /usr/local/bin/gyp
+
+Now grab this sample project:
+
+   git clone git://github.com/springmeyer/hello-gyp.git
+   cd hello-gyp
+
+
 ## make
 
 ### build
