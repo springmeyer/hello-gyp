@@ -134,7 +134,19 @@ Now go back to the hello-gyp project folder and build the sample:
     $ ./out/Default/myapp 
     hello
 
+## Microsft Visual Studio C++ 2010 Expres
+
+Note, this assumes you've downloaded and installed the free 2010 C++ studio.
+
+    python gyp/gyp mylib.gyp --depth=. -f msvs -G msvs_version=2010
+    msbuild mylib.sln
+
+### test
+
+    c:\hello-gyp>Default\myapp.exe
+    hello
+
 
 ## Others
 
-Other formats are: msvs and ninja as well as some gyp-specific debugging output
+Other formats are some some gyp-specific debugging output
