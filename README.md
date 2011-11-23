@@ -76,6 +76,9 @@ project, gyp can help.
     $ ./projects/makefiles/out/Default/myapp 
     hello
 
+And the node module:
+
+    node -e "console.log(require('./projects/makefiles/out/Default/myaddon.node'))"
 
 ## scons
 
