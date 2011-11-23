@@ -884,7 +884,7 @@ class XcodeSettings(object):
         raise NotImplementedError('Unknown debug format %s' % dbg_format)
 
     if self._Test('GCC_SYMBOLS_PRIVATE_EXTERN', 'YES', default='NO'):
-      cflags.append('-fvisibility=hidden')
+      pass#cflags.append('-fvisibility=hidden')
 
     if self._Test('GCC_TREAT_WARNINGS_AS_ERRORS', 'YES', default='NO'):
       cflags.append('-Werror')
@@ -907,7 +907,7 @@ class XcodeSettings(object):
     self._WarnUnimplemented('PRODUCT_TYPE')
 
     # TODO: Do not hardcode arch. Supporting fat binaries will be annoying.
-    cflags.append('-arch i386')
+    #cflags.append('-arch i386')
 
     cflags += self._Settings().get('OTHER_CFLAGS', [])
     cflags += self._Settings().get('WARNING_CFLAGS', [])
@@ -937,7 +937,7 @@ class XcodeSettings(object):
     if self._Test('GCC_ENABLE_CPP_EXCEPTIONS', 'NO', default='YES'):
       cflags_cc.append('-fno-exceptions')
     if self._Test('GCC_INLINES_ARE_PRIVATE_EXTERN', 'YES', default='NO'):
-      cflags_cc.append('-fvisibility-inlines-hidden')
+      pass#cflags_cc.append('-fvisibility-inlines-hidden')
     if self._Test('GCC_THREADSAFE_STATICS', 'NO', default='YES'):
       cflags_cc.append('-fno-threadsafe-statics')
     self.configname = None
@@ -1001,7 +1001,7 @@ class XcodeSettings(object):
                      '-Wl,' + target.Absolutify(self._Settings()['ORDER_FILE']))
 
     # TODO: Do not hardcode arch. Supporting fat binaries will be annoying.
-    ldflags.append('-arch i386')
+    #ldflags.append('-arch i386')
 
     # Xcode adds the product directory by default.
     ldflags.append('-L' + generator_default_variables['PRODUCT_DIR'])
