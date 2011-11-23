@@ -12,9 +12,9 @@ hand created - so cleaner to hand edit or extend.
 
 Its a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
 
-This demo shows how to build a hello world c++ library and command line program
-that uses it (called 'mylib'), using gyp to build the files needed by your 
-preferred build tool.
+This demo shows how to build a hello world c++ library (called 'mylib')
+and command line program that uses it, by invoking gyp to general the
+project files needed by your preferred build tool.
 
 See also: http://code.google.com/p/gyp/wiki/GypTesting
 
@@ -34,8 +34,8 @@ Now you should have the `gyp` program on your `PATH`:
 
 Now grab this sample project:
 
-   git clone git://github.com/springmeyer/hello-gyp.git
-   cd hello-gyp
+    git clone git://github.com/springmeyer/hello-gyp.git
+    cd hello-gyp
 
 
 ## no build system
