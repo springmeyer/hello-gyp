@@ -24,7 +24,6 @@
         'mylib'
       ],
       'libraries': [
-        '-lz',
       ],
     },
   ],
