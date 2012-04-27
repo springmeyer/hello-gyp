@@ -69,7 +69,7 @@ project, gyp can help.
 ### build
 
     gyp mylib.gyp --depth=. -f make --generator-output=./projects/makefiles
-    make -C ./projects/makefiles/
+    V=1 make -C ./projects/makefiles/
 
 ### test
 
