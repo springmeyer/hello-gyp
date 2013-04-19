@@ -3,3 +3,5 @@ build/
 projects/
 out/
 manual-build
+.svn
+*pyc
