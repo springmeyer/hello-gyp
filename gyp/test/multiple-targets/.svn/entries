@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/multiple-targets
 http://gyp.googlecode.com/svn
 
 
 
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 
 
 
@@ -35,11 +35,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-a7678fe05546937f5b468876a3b5096b
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2013-04-19T18:51:15.000000Z
+7b4b2368b8e701744c2da57c12796b2f
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 has-props
 
 
@@ -61,7 +61,7 @@ has-props
 
 
 
-759
+644
 
 gyptest-all.py
 file
@@ -69,11 +69,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-15046a9b557caf7064c010d7d6402187
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2013-04-19T18:51:15.000000Z
+43dbb2000a358a7043075ce60c41639b
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 has-props
 
 
@@ -95,5 +95,5 @@ has-props
 
 
 
-769
+667
 

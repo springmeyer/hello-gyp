@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1094/trunk/test/variables/filelist
+/svn/!svn/ver/1444/trunk/test/variables/filelist
 END
 gyptest-filelist.py
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/1000/trunk/test/variables/filelist/gyptest-filelist.py
+/svn/!svn/ver/1444/trunk/test/variables/filelist/gyptest-filelist.py
 END
 filelist.gypd.golden
 K 25
@@ -25,5 +25,5 @@ filelist.gyp.stdout
 K 25
 svn:wc:ra_dav:version-url
 V 68
-/svn/!svn/ver/1094/trunk/test/variables/filelist/filelist.gyp.stdout
+/svn/!svn/ver/1444/trunk/test/variables/filelist/filelist.gyp.stdout
 END

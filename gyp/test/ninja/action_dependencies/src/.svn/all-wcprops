@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1087/trunk/test/ninja/action_dependencies/src
+/svn/!svn/ver/1216/trunk/test/ninja/action_dependencies/src
 END
 action_dependencies.gyp
 K 25
@@ -19,7 +19,7 @@ b.c
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/svn/!svn/ver/1087/trunk/test/ninja/action_dependencies/src/b.c
+/svn/!svn/ver/1216/trunk/test/ninja/action_dependencies/src/b.c
 END
 c.c
 K 25
@@ -31,7 +31,7 @@ emit.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/1087/trunk/test/ninja/action_dependencies/src/emit.py
+/svn/!svn/ver/1102/trunk/test/ninja/action_dependencies/src/emit.py
 END
 a.h
 K 25

@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/configurations/basics
 http://gyp.googlecode.com/svn
 
 
 
-2009-10-29T18:28:44.391552Z
-734
-bradnelson@google.com
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 c1432efd54101b2fee424d2fea4df12b
 2009-10-29T18:28:44.391552Z
 734
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 66ba824636118517fdcab5aa69b0292d
 2009-10-29T18:28:44.391552Z
 734
@@ -100,11 +100,11 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2012-01-10T20:01:59.000000Z
 35169b2cc133bd79b8115d33c4b205b0
-2009-10-29T18:28:44.391552Z
-734
-bradnelson@google.com
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 has-props
 
 

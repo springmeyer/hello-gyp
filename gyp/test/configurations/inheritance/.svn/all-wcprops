@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/734/trunk/test/configurations/inheritance
+V 56
+/svn/!svn/ver/1102/trunk/test/configurations/inheritance
 END
 configurations.gyp
 K 25
@@ -18,6 +18,6 @@ END
 gyptest-inheritance.py
 K 25
 svn:wc:ra_dav:version-url
-V 78
-/svn/!svn/ver/734/trunk/test/configurations/inheritance/gyptest-inheritance.py
+V 79
+/svn/!svn/ver/1102/trunk/test/configurations/inheritance/gyptest-inheritance.py
 END

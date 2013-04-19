@@ -1,7 +1,7 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/rules-dirname/src/subdir/foo/bar
 http://gyp.googlecode.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 3043a3b6c85fecbb914ea4a600a78d0f
 2011-10-18T04:55:38.973371Z
 1077
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 248303b6fc37a6a235df881d89cf81ee
 2011-10-18T04:55:38.973371Z
 1077

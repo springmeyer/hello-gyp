@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/svn/!svn/ver/1028/trunk/test/hard_dependency/src
+/svn/!svn/ver/1338/trunk/test/hard_dependency/src
 END
 a.c
 K 25
@@ -19,7 +19,7 @@ c.c
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/1028/trunk/test/hard_dependency/src/c.c
+/svn/!svn/ver/1338/trunk/test/hard_dependency/src/c.c
 END
 d.c
 K 25
@@ -31,7 +31,7 @@ emit.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1028/trunk/test/hard_dependency/src/emit.py
+/svn/!svn/ver/1102/trunk/test/hard_dependency/src/emit.py
 END
 a.h
 K 25

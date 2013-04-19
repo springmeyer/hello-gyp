@@ -1,10 +1,9 @@
-#!/usr/bin/python
-
 # Copyright (c) 2011 Google Inc. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
 import re
+import os
 
 
 def XmlToString(content, encoding='utf-8', pretty=False):
@@ -81,7 +80,7 @@ def _ConstructContentList(xml_parts, specification, pretty, level=0):
   rest = specification[1:]
   if rest and isinstance(rest[0], dict):
     for at, val in sorted(rest[0].iteritems()):
-      xml_parts.append(' %s="%s"' % (at, _XmlEscape(val)))
+      xml_parts.append(' %s="%s"' % (at, _XmlEscape(val, attr=True)))
     rest = rest[1:]
   if rest:
     xml_parts.append('>')
@@ -103,7 +102,8 @@ def _ConstructContentList(xml_parts, specification, pretty, level=0):
     xml_parts.append('/>%s' % new_line)
 
 
-def WriteXmlIfChanged(content, path, encoding='utf-8', pretty=False):
+def WriteXmlIfChanged(content, path, encoding='utf-8', pretty=False,
+                      win32=False):
   """ Writes the XML content to disk, touching the file only if it has changed.
 
   Args:
@@ -113,6 +113,8 @@ def WriteXmlIfChanged(content, path, encoding='utf-8', pretty=False):
     pretty: True if we want pretty printing with indents and new lines.
   """
   xml_string = XmlToString(content, encoding, pretty)
+  if win32 and os.linesep != '\r\n':
+    xml_string = xml_string.replace('\n', '\r\n')
 
   # Get the old content
   try:
@@ -144,7 +146,12 @@ _xml_escape_re = re.compile(
     "(%s)" % "|".join(map(re.escape, _xml_escape_map.keys())))
 
 
-def _XmlEscape(value):
+def _XmlEscape(value, attr=False):
   """ Escape a string for inclusion in XML."""
-  replace = lambda m: _xml_escape_map[m.string[m.start() : m.end()]]
+  def replace(match):
+    m = match.string[match.start() : match.end()]
+    # don't replace single quotes in attrs
+    if attr and m == "'":
+      return m
+    return _xml_escape_map[m]
   return _xml_escape_re.sub(replace, value)

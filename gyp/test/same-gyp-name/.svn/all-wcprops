@@ -1,17 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 42
-/svn/!svn/ver/759/trunk/test/same-gyp-name
+V 43
+/svn/!svn/ver/1504/trunk/test/same-gyp-name
 END
 gyptest-default.py
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/759/trunk/test/same-gyp-name/gyptest-default.py
+V 62
+/svn/!svn/ver/1504/trunk/test/same-gyp-name/gyptest-default.py
+END
+gyptest-library.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1504/trunk/test/same-gyp-name/gyptest-library.py
 END
 gyptest-all.py
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/759/trunk/test/same-gyp-name/gyptest-all.py
+V 58
+/svn/!svn/ver/1504/trunk/test/same-gyp-name/gyptest-all.py
 END

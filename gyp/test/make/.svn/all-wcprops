@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 33
-/svn/!svn/ver/869/trunk/test/make
+V 34
+/svn/!svn/ver/1392/trunk/test/make
 END
 gyptest-noload.py
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/869/trunk/test/make/gyptest-noload.py
+V 52
+/svn/!svn/ver/1102/trunk/test/make/gyptest-noload.py
 END
 dependencies.gyp
 K 25
@@ -24,8 +24,8 @@ END
 gyptest-dependencies.py
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/852/trunk/test/make/gyptest-dependencies.py
+V 58
+/svn/!svn/ver/1392/trunk/test/make/gyptest-dependencies.py
 END
 main.h
 K 25

@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1014/trunk/test/dependencies
+/svn/!svn/ver/1613/trunk/test/dependencies
+END
+none_traversal.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1114/trunk/test/dependencies/none_traversal.gyp
 END
 a.c
 K 25
@@ -9,17 +15,35 @@ svn:wc:ra_dav:version-url
 V 45
 /svn/!svn/ver/771/trunk/test/dependencies/a.c
 END
+gyptest-none-traversal.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1108/trunk/test/dependencies/gyptest-none-traversal.py
+END
 lib_only.gyp
 K 25
 svn:wc:ra_dav:version-url
 V 54
 /svn/!svn/ver/721/trunk/test/dependencies/lib_only.gyp
 END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1108/trunk/test/dependencies/main.c
+END
+double_dependency.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1322/trunk/test/dependencies/double_dependency.gyp
+END
 gyptest-lib-only.py
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/1014/trunk/test/dependencies/gyptest-lib-only.py
+/svn/!svn/ver/1613/trunk/test/dependencies/gyptest-lib-only.py
 END
 extra_targets.gyp
 K 25
@@ -27,9 +51,21 @@ svn:wc:ra_dav:version-url
 V 59
 /svn/!svn/ver/721/trunk/test/dependencies/extra_targets.gyp
 END
+gyptest-double-dependency.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1322/trunk/test/dependencies/gyptest-double-dependency.py
+END
 gyptest-extra-targets.py
 K 25
 svn:wc:ra_dav:version-url
-V 66
-/svn/!svn/ver/721/trunk/test/dependencies/gyptest-extra-targets.py
+V 67
+/svn/!svn/ver/1102/trunk/test/dependencies/gyptest-extra-targets.py
+END
+double_dependent.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1322/trunk/test/dependencies/double_dependent.gyp
 END

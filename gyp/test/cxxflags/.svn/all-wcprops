@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/svn/!svn/ver/872/trunk/test/cxxflags
+V 38
+/svn/!svn/ver/1545/trunk/test/cxxflags
 END
 cxxflags.cc
 K 25
@@ -12,8 +12,8 @@ END
 gyptest-cxxflags.py
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/872/trunk/test/cxxflags/gyptest-cxxflags.py
+V 58
+/svn/!svn/ver/1545/trunk/test/cxxflags/gyptest-cxxflags.py
 END
 cxxflags.gyp
 K 25

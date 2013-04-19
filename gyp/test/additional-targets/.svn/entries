@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/additional-targets
 http://gyp.googlecode.com/svn
 
 
 
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 
 
 
@@ -35,11 +35,12 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-5d7a5fbbe20cd8177500cdd2ee054d8c
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2013-04-19T18:51:14.000000Z
+fdd58ffe4fa923a1aff3295bcf0b1bfb
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
+has-props
 
 
 
@@ -60,6 +61,5 @@ evan@chromium.org
 
 
 
-
-1469
+1521
 

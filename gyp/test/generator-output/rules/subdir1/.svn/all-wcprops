@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/721/trunk/test/generator-output/rules/subdir1
+V 60
+/svn/!svn/ver/1613/trunk/test/generator-output/rules/subdir1
 END
 executable.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/!svn/ver/721/trunk/test/generator-output/rules/subdir1/executable.gyp
+V 75
+/svn/!svn/ver/1613/trunk/test/generator-output/rules/subdir1/executable.gyp
 END
 define3.in0
 K 25

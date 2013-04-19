@@ -1,14 +1,14 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/mac/strip
 http://gyp.googlecode.com/svn
 
 
 
-2011-09-19T15:08:52.244426Z
-1047
+2012-04-07T02:32:18.168790Z
+1316
 thakis@chromium.org
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 becf12f1d2715c96cc9fcb7a100fbc6c
 2011-09-19T15:08:52.244426Z
 1047
@@ -60,16 +60,50 @@ has-props
 
 247
 
+strip.saves
+file
+
+
+
+
+2012-01-10T20:01:59.000000Z
+82595f23322bcf48ee23f54077acdd71
+2011-12-09T20:31:29.410528Z
+1104
+mseaborn@chromium.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+227
+
 test.gyp
 file
 
 
 
 
-2011-11-23T01:16:49.000000Z
-0ed813b849234285ae29fb3ced0f82fe
-2011-09-19T15:08:52.244426Z
-1047
+2012-05-02T06:20:04.000000Z
+5973bc782ac1f2cebbc66dab04531b87
+2012-04-07T02:32:18.168790Z
+1316
 thakis@chromium.org
 has-props
 
@@ -92,5 +126,8 @@ has-props
 
 
 
-3064
+3565
+
+subdirectory
+dir
 

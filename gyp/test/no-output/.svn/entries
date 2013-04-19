@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/no-output
 http://gyp.googlecode.com/svn
 
 
 
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 
 
 
@@ -35,12 +35,12 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2012-01-10T20:02:00.000000Z
 ba7ace834618232a1d1bc5ffd0fbf171
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
-
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
+has-props
 
 
 

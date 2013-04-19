@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/sibling
 http://gyp.googlecode.com/svn
 
 
 
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-76fb23b570c97fd159a17bd46d62513e
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2012-11-20T02:57:54.000000Z
+064d72ac890e32690ca923ed15c73e3e
+2012-07-04T14:20:02.871758Z
+1428
+steveblock@chromium.org
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-1155
+1161
 
 src
 dir
@@ -69,11 +69,11 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-7a67a653c2f80cc019a222dd8ccb1f38
-2011-08-22T23:38:24.482888Z
-1009
-evan@chromium.org
+2012-11-20T02:57:54.000000Z
+5dd508d90b05a2d7efca4691beb1285c
+2012-07-04T14:20:02.871758Z
+1428
+steveblock@chromium.org
 has-props
 
 
@@ -95,5 +95,5 @@ has-props
 
 
 
-1072
+1078
 

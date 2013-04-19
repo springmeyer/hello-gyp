@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 41
-/svn/!svn/ver/776/trunk/test/msvs/express
+V 42
+/svn/!svn/ver/1102/trunk/test/msvs/express
 END
 express.gyp
 K 25
@@ -12,6 +12,6 @@ END
 gyptest-express.py
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/776/trunk/test/msvs/express/gyptest-express.py
+V 61
+/svn/!svn/ver/1102/trunk/test/msvs/express/gyptest-express.py
 END

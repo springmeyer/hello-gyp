@@ -21,7 +21,7 @@
       'target_name': 'host-main',
       'type': 'executable',
       'toolsets': ['host'],
-      'dependencies': ['toolsets'],
+      'dependencies': ['toolsets', 'toolsets_shared'],
       'sources': [
         'main.cc',
       ],
@@ -29,10 +29,34 @@
     {
       'target_name': 'target-main',
       'type': 'executable',
-      'dependencies': ['toolsets'],
+      'dependencies': ['toolsets', 'toolsets_shared'],
       'sources': [
         'main.cc',
       ],
+    },
+    # This tests that build systems can handle a shared library being build for
+    # both host and target.
+    {
+      'target_name': 'janus',
+      'type': 'shared_library',
+      'toolsets': ['target', 'host'],
+      'sources': [
+        'toolsets.cc',
+      ],
+      'cflags': [ '-fPIC' ],
+    },
+    {
+      'target_name': 'toolsets_shared',
+      'type': 'shared_library',
+      'toolsets': ['target', 'host'],
+      'target_conditions': [
+        # Ensure target and host have different shared_library names
+        ['_toolset=="host"', {'product_extension': 'host'}],
+      ],
+      'sources': [
+        'toolsets_shared.cc',
+      ],
+      'cflags': [ '-fPIC' ],
     },
   ],
 }

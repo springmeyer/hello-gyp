@@ -1,14 +1,14 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/mac/postbuilds
 http://gyp.googlecode.com/svn
 
 
 
-2011-08-25T00:04:10.235409Z
-1014
+2012-04-07T00:52:22.330379Z
+1315
 thakis@chromium.org
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 2200586bd06b2bc20847fbd573946c9a
 2011-08-17T23:13:11.677927Z
 1001
@@ -60,8 +60,110 @@ has-props
 
 171
 
+copy.sh
+file
+
+
+
+
+2012-05-02T06:20:03.000000Z
+08fc2830885d74c0413a487a0cce415c
+2012-04-07T00:52:22.330379Z
+1315
+thakis@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+
 script
 dir
+
+file_g.c
+file
+
+
+
+
+2012-05-02T06:20:03.000000Z
+531f63e1c6a8fa2d55f477e36be69b4d
+2012-03-28T04:46:51.233561Z
+1284
+thakis@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+171
+
+file_h.c
+file
+
+
+
+
+2012-05-02T06:20:03.000000Z
+799f72bc9a2d2049522c97d5ec74033f
+2012-03-28T04:46:51.233561Z
+1284
+thakis@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+171
 
 test.gyp
 file
@@ -69,10 +171,10 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
-188a8d8fe6b1f744f7f06cb8fb7cfd98
-2011-08-25T00:04:10.235409Z
-1014
+2012-05-02T06:20:03.000000Z
+8bad8e65f2d30e480d11213122880c76
+2012-04-06T22:10:26.198514Z
+1313
 thakis@chromium.org
 
 
@@ -95,7 +197,7 @@ thakis@chromium.org
 
 
 
-2112
+2337
 
 subdirectory
 dir

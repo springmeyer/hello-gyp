@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/721/trunk/test/generator-output/rules
+V 52
+/svn/!svn/ver/1613/trunk/test/generator-output/rules
 END
 rules.gyp
 K 25
@@ -12,6 +12,6 @@ END
 copy-file.py
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/721/trunk/test/generator-output/rules/copy-file.py
+V 65
+/svn/!svn/ver/1102/trunk/test/generator-output/rules/copy-file.py
 END

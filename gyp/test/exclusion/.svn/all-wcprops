@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/svn/!svn/ver/866/trunk/test/exclusion
+V 39
+/svn/!svn/ver/1102/trunk/test/exclusion
 END
 hello.c
 K 25
@@ -18,6 +18,6 @@ END
 gyptest-exclusion.py
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/866/trunk/test/exclusion/gyptest-exclusion.py
+V 60
+/svn/!svn/ver/1102/trunk/test/exclusion/gyptest-exclusion.py
 END

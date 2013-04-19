@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
-V 39
-/svn/!svn/ver/841/trunk/test/module/src
+V 40
+/svn/!svn/ver/1594/trunk/test/module/src
 END
 module.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/!svn/ver/776/trunk/test/module/src/module.gyp
+V 51
+/svn/!svn/ver/1207/trunk/test/module/src/module.gyp
 END
 program.c
 K 25
 svn:wc:ra_dav:version-url
-V 49
-/svn/!svn/ver/841/trunk/test/module/src/program.c
+V 50
+/svn/!svn/ver/1594/trunk/test/module/src/program.c
 END
 lib1.c
 K 25

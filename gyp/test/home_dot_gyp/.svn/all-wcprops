@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
 V 42
-/svn/!svn/ver/1065/trunk/test/home_dot_gyp
+/svn/!svn/ver/1545/trunk/test/home_dot_gyp
 END
 gyptest-home-includes.py
 K 25
 svn:wc:ra_dav:version-url
 V 67
-/svn/!svn/ver/1065/trunk/test/home_dot_gyp/gyptest-home-includes.py
+/svn/!svn/ver/1165/trunk/test/home_dot_gyp/gyptest-home-includes.py
 END
 gyptest-home-includes-regyp.py
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/1065/trunk/test/home_dot_gyp/gyptest-home-includes-regyp.py
+/svn/!svn/ver/1545/trunk/test/home_dot_gyp/gyptest-home-includes-regyp.py
 END

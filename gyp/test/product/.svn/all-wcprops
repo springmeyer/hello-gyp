@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/svn/!svn/ver/776/trunk/test/product
+V 37
+/svn/!svn/ver/1428/trunk/test/product
 END
 hello.c
 K 25
@@ -12,8 +12,8 @@ END
 gyptest-product.py
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/776/trunk/test/product/gyptest-product.py
+V 56
+/svn/!svn/ver/1428/trunk/test/product/gyptest-product.py
 END
 product.gyp
 K 25

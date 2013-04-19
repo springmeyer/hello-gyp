@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/actions-bare/src
 http://gyp.googlecode.com/svn
 
 
 
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 
 
 
@@ -32,11 +32,12 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
-62070e11e49c695e54bad36b526f09e4
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2012-01-10T20:01:59.000000Z
+e991819312ee2cdecb3d92ad9f313600
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
+has-props
 
 
 
@@ -57,8 +58,7 @@ sgk@chromium.org
 
 
 
-
-258
+262
 
 bare.gyp
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 de8b18720bbcdea84c1059c44917131f
 2009-10-22T20:02:37.997393Z
 721

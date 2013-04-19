@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 59
-/svn/!svn/ver/806/trunk/test/configurations/target_platform
+V 60
+/svn/!svn/ver/1102/trunk/test/configurations/target_platform
 END
 configurations.gyp
 K 25
@@ -30,6 +30,6 @@ END
 gyptest-target_platform.py
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/svn/!svn/ver/806/trunk/test/configurations/target_platform/gyptest-target_platform.py
+V 87
+/svn/!svn/ver/1102/trunk/test/configurations/target_platform/gyptest-target_platform.py
 END

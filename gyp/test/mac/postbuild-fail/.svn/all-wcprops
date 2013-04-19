@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 48
-/svn/!svn/ver/1049/trunk/test/mac/postbuild-fail
+/svn/!svn/ver/1180/trunk/test/mac/postbuild-fail
 END
 file.c
 K 25
@@ -19,7 +19,7 @@ postbuild-fail.sh
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/svn/!svn/ver/1049/trunk/test/mac/postbuild-fail/postbuild-fail.sh
+/svn/!svn/ver/1180/trunk/test/mac/postbuild-fail/postbuild-fail.sh
 END
 touch-dynamic.sh
 K 25

@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/!svn/ver/721/trunk/test/rules/src/subdir1
+V 47
+/svn/!svn/ver/1613/trunk/test/rules/src/subdir1
 END
 executable.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 61
-/svn/!svn/ver/721/trunk/test/rules/src/subdir1/executable.gyp
+V 62
+/svn/!svn/ver/1613/trunk/test/rules/src/subdir1/executable.gyp
 END
 program.c
 K 25

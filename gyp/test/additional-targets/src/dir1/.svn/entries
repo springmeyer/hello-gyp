@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/additional-targets/src/dir1
 http://gyp.googlecode.com/svn
 
 
 
-2009-11-13T19:31:37.036523Z
-756
-mmoss@chromium.org
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 
 
 
@@ -32,11 +32,12 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-9de686924a689a3f017183ef543ff064
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2012-01-10T20:01:59.000000Z
+475572f0be6f34bc247409e88f0159c0
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
+has-props
 
 
 
@@ -57,8 +58,7 @@ sgk@chromium.org
 
 
 
-
-258
+262
 
 lib1.c
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 96847fefd84122a4d6fa8180a8a88f5c
 2009-10-22T00:56:41.953782Z
 720
@@ -100,7 +100,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 faa8fa1206e499e0194aba5441f8bcdd
 2009-11-13T19:31:37.036523Z
 756

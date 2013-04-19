@@ -1,13 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
-V 43
-/svn/!svn/ver/965/trunk/test/mac/app-bundle
+V 44
+/svn/!svn/ver/1573/trunk/test/mac/app-bundle
 END
 empty.c
 K 25
 svn:wc:ra_dav:version-url
 V 51
 /svn/!svn/ver/965/trunk/test/mac/app-bundle/empty.c
+END
+test-error.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1573/trunk/test/mac/app-bundle/test-error.gyp
 END
 test.gyp
 K 25

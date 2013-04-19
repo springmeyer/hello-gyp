@@ -1,14 +1,14 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/configurations/x64
 http://gyp.googlecode.com/svn
 
 
 
-2010-03-23T02:25:20.456924Z
-799
+2012-06-28T17:20:49.960457Z
+1422
 bradnelson@google.com
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-b18ff43b88bb30ae0b3b8e62ffb6bd76
-2009-10-30T21:33:16.966538Z
-739
+2012-11-20T02:57:46.000000Z
+78bc3ab442895157ab3d0a163ac0d4e3
+2012-06-28T17:20:49.960457Z
+1422
 bradnelson@google.com
 
 
@@ -58,7 +58,7 @@ bradnelson@google.com
 
 
 
-561
+805
 
 gyptest-x86.py
 file
@@ -66,10 +66,10 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
-4bfbc087ae99c82bde2135eab9ec7759
-2010-03-23T02:25:20.456924Z
-799
+2012-11-20T02:57:46.000000Z
+f226c834599474118251a327352731c3
+2012-06-28T17:20:49.960457Z
+1422
 bradnelson@google.com
 has-props
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-812
+787
 
 configurations.c
 file
@@ -100,7 +100,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 b56338e8c96e14cb59f99e97bcfdd359
 2009-10-30T21:33:16.966538Z
 739

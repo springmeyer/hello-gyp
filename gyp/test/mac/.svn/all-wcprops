@@ -1,83 +1,245 @@
 K 25
 svn:wc:ra_dav:version-url
 V 33
-/svn/!svn/ver/1092/trunk/test/mac
+/svn/!svn/ver/1606/trunk/test/mac
 END
-gyptest-framework.py
+gyptest-xcode-gcc.py
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1063/trunk/test/mac/gyptest-framework.py
+/svn/!svn/ver/1594/trunk/test/mac/gyptest-xcode-gcc.py
 END
-gyptest-postbuild-fail.py
+gyptest-framework-dirs.py
 K 25
 svn:wc:ra_dav:version-url
 V 59
-/svn/!svn/ver/1049/trunk/test/mac/gyptest-postbuild-fail.py
+/svn/!svn/ver/1433/trunk/test/mac/gyptest-framework-dirs.py
 END
-gyptest-app.py
+gyptest-action-envvars.py
 K 25
 svn:wc:ra_dav:version-url
-V 47
-/svn/!svn/ver/971/trunk/test/mac/gyptest-app.py
+V 59
+/svn/!svn/ver/1160/trunk/test/mac/gyptest-action-envvars.py
 END
-gyptest-strip.py
+gyptest-archs.py
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/svn/!svn/ver/1047/trunk/test/mac/gyptest-strip.py
-END
-gyptest-xcode-env-order.py
-K 25
-svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/1092/trunk/test/mac/gyptest-xcode-env-order.py
+/svn/!svn/ver/1198/trunk/test/mac/gyptest-archs.py
 END
 gyptest-debuginfo.py
 K 25
 svn:wc:ra_dav:version-url
 V 54
-/svn/!svn/ver/1050/trunk/test/mac/gyptest-debuginfo.py
-END
-gyptest-copies.py
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/svn/!svn/ver/971/trunk/test/mac/gyptest-copies.py
+/svn/!svn/ver/1180/trunk/test/mac/gyptest-debuginfo.py
 END
 gyptest-type-envvars.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1067/trunk/test/mac/gyptest-type-envvars.py
+/svn/!svn/ver/1159/trunk/test/mac/gyptest-type-envvars.py
 END
-gyptest-infoplist-process.py
+gyptest-clang-cxx-language-standard.py
 K 25
 svn:wc:ra_dav:version-url
-V 62
-/svn/!svn/ver/1090/trunk/test/mac/gyptest-infoplist-process.py
+V 72
+/svn/!svn/ver/1595/trunk/test/mac/gyptest-clang-cxx-language-standard.py
 END
-gyptest-postbuild.py
+gyptest-objc-gc.py
 K 25
 svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/1014/trunk/test/mac/gyptest-postbuild.py
+V 52
+/svn/!svn/ver/1572/trunk/test/mac/gyptest-objc-gc.py
 END
 gyptest-prefixheader.py
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/1041/trunk/test/mac/gyptest-prefixheader.py
+/svn/!svn/ver/1126/trunk/test/mac/gyptest-prefixheader.py
+END
+gyptest-framework-headers.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1389/trunk/test/mac/gyptest-framework-headers.py
+END
+gyptest-installname.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1306/trunk/test/mac/gyptest-installname.py
+END
+gyptest-postbuild-defaults.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1180/trunk/test/mac/gyptest-postbuild-defaults.py
+END
+gyptest-missing-cfbundlesignature.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1241/trunk/test/mac/gyptest-missing-cfbundlesignature.py
+END
+gyptest-postbuild-fail.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1576/trunk/test/mac/gyptest-postbuild-fail.py
+END
+gyptest-rpath.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1375/trunk/test/mac/gyptest-rpath.py
+END
+gyptest-depend-on-bundle.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1137/trunk/test/mac/gyptest-depend-on-bundle.py
+END
+gyptest-sourceless-module.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1136/trunk/test/mac/gyptest-sourceless-module.gyp
+END
+gyptest-copies.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1159/trunk/test/mac/gyptest-copies.py
 END
 gyptest-rebuild.py
 K 25
 svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1392/trunk/test/mac/gyptest-rebuild.py
+END
+gyptest-non-strs-flattened-to-env.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1159/trunk/test/mac/gyptest-non-strs-flattened-to-env.py
+END
+gyptest-framework.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1132/trunk/test/mac/gyptest-framework.py
+END
+gyptest-global-settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1170/trunk/test/mac/gyptest-global-settings.py
+END
+gyptest-cflags.py
+K 25
+svn:wc:ra_dav:version-url
 V 51
-/svn/!svn/ver/962/trunk/test/mac/gyptest-rebuild.py
+/svn/!svn/ver/1328/trunk/test/mac/gyptest-cflags.py
+END
+gyptest-xcode-env-order.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1489/trunk/test/mac/gyptest-xcode-env-order.py
+END
+gyptest-strip.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1570/trunk/test/mac/gyptest-strip.py
+END
+gyptest-postbuild-static-library.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1175/trunk/test/mac/gyptest-postbuild-static-library.gyp
+END
+gyptest-deployment-target.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1595/trunk/test/mac/gyptest-deployment-target.py
+END
+gyptest-postbuild.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1313/trunk/test/mac/gyptest-postbuild.py
+END
+gyptest-app-error.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1605/trunk/test/mac/gyptest-app-error.py
+END
+gyptest-ldflags-passed-to-libtool.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1572/trunk/test/mac/gyptest-ldflags-passed-to-libtool.py
+END
+gyptest-copy-dylib.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1133/trunk/test/mac/gyptest-copy-dylib.py
+END
+gyptest-ldflags.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1325/trunk/test/mac/gyptest-ldflags.py
+END
+gyptest-libraries.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1182/trunk/test/mac/gyptest-libraries.py
+END
+gyptest-app.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1242/trunk/test/mac/gyptest-app.py
+END
+gyptest-infoplist-process.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1159/trunk/test/mac/gyptest-infoplist-process.py
+END
+gyptest-postbuild-copy-bundle.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1533/trunk/test/mac/gyptest-postbuild-copy-bundle.py
+END
+gyptest-sdkroot.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1606/trunk/test/mac/gyptest-sdkroot.py
+END
+gyptest-postbuild-multiple-configurations.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1180/trunk/test/mac/gyptest-postbuild-multiple-configurations.py
 END
 gyptest-loadable-module.py
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/!svn/ver/1063/trunk/test/mac/gyptest-loadable-module.py
+/svn/!svn/ver/1159/trunk/test/mac/gyptest-loadable-module.py
+END
+gyptest-clang-cxx-library.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1598/trunk/test/mac/gyptest-clang-cxx-library.py
 END

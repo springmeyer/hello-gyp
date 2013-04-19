@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 41
-/svn/!svn/ver/721/trunk/test/builddir/src
+V 42
+/svn/!svn/ver/1613/trunk/test/builddir/src
 END
 func3.c
 K 25
@@ -24,8 +24,8 @@ END
 builddir.gypi
 K 25
 svn:wc:ra_dav:version-url
-V 55
-/svn/!svn/ver/721/trunk/test/builddir/src/builddir.gypi
+V 56
+/svn/!svn/ver/1613/trunk/test/builddir/src/builddir.gypi
 END
 prog1.gyp
 K 25

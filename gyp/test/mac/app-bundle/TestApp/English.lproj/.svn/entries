@@ -1,14 +1,14 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/mac/app-bundle/TestApp/English.lproj
 http://gyp.googlecode.com/svn
 
 
 
-2011-07-18T21:13:37.409121Z
-956
+2013-02-13T18:51:16.310385Z
+1573
 thakis@chromium.org
 
 
@@ -32,10 +32,44 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2013-04-19T18:51:12.000000Z
+bf108c43cece7b5a7fc3cb6428691191
+2013-02-13T18:51:16.310385Z
+1573
+thakis@chromium.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104
+
+InfoPlist-error.strings
+file
+
+
+
+
+2013-04-19T18:51:12.000000Z
 a4591bf977d68b50cb9ec9ea89e784ce
-2011-07-18T21:13:37.409121Z
-956
+2013-02-13T18:51:16.310385Z
+1573
 thakis@chromium.org
 
 
@@ -66,7 +100,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 3cbe77efa2f7f4d3473cae2f50827688
 2011-07-18T21:13:37.409121Z
 956

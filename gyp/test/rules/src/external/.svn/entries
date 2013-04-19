@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/rules/src/external
 http://gyp.googlecode.com/svn
 
 
 
-2011-10-13T20:01:11.229125Z
-1072
-bradnelson@google.com
+2012-02-23T02:02:02.641829Z
+1233
+scottmg@chromium.org
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-e8b3afcaa74494df86b9deb19f60040d
-2011-10-13T20:01:11.229125Z
-1072
-bradnelson@google.com
+2012-05-02T06:20:09.000000Z
+42fa97008a03b8ce479d82f484c0b638
+2012-02-23T02:02:02.641829Z
+1233
+scottmg@chromium.org
 
 
 
@@ -58,7 +58,7 @@ bradnelson@google.com
 
 
 
-1701
+1697
 
 file1.in
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:11.000000Z
 73e97a6d5fdf3a548f30c1bb96511941
 2011-10-13T19:44:55.639170Z
 1071
@@ -100,7 +100,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:11.000000Z
 19f9b8fb0f08ebe09e59f6236bd9a985
 2011-10-13T19:44:55.639170Z
 1071

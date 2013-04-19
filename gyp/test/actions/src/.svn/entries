@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/actions/src
 http://gyp.googlecode.com/svn
 
 
 
-2010-03-05T21:06:36.047215Z
-795
-jrg@chromium.org
+2013-04-17T18:21:30.907928Z
+1613
+bradnelson@google.com
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 91bba93764aed526ccf72e8dade435ec
 2009-10-22T20:02:37.997393Z
 721
@@ -72,11 +72,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-9acb11e4d50135a1b299cf9806a0a49e
-2010-03-02T23:10:33.919655Z
-791
-jrg@chromium.org
+2012-01-10T20:02:00.000000Z
+1140b8721496931623e2f4df56dd8ad3
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
+has-props
 
 
 
@@ -97,8 +98,7 @@ jrg@chromium.org
 
 
 
-
-480
+640
 
 subdir3
 dir
@@ -109,7 +109,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 fdf7766a45791bf74a4c56a305a1ea93
 2010-03-05T21:06:36.047215Z
 795

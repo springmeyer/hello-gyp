@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 41
-/svn/!svn/ver/721/trunk/test/assembly/src
+V 42
+/svn/!svn/ver/1534/trunk/test/assembly/src
 END
 program.c
 K 25
@@ -18,8 +18,8 @@ END
 lib1.S
 K 25
 svn:wc:ra_dav:version-url
-V 48
-/svn/!svn/ver/671/trunk/test/assembly/src/lib1.S
+V 49
+/svn/!svn/ver/1428/trunk/test/assembly/src/lib1.S
 END
 as.bat
 K 25
@@ -30,6 +30,18 @@ END
 assembly.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 54
-/svn/!svn/ver/721/trunk/test/assembly/src/assembly.gyp
+V 55
+/svn/!svn/ver/1428/trunk/test/assembly/src/assembly.gyp
+END
+override.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1534/trunk/test/assembly/src/override.gyp
+END
+override_asm.asm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1534/trunk/test/assembly/src/override_asm.asm
 END

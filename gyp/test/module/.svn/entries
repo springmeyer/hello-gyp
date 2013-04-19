@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/module
 http://gyp.googlecode.com/svn
 
 
 
-2010-09-03T00:59:19.706713Z
-841
-bradnelson@google.com
+2013-03-14T20:21:59.780203Z
+1594
+thakis@chromium.org
 
 
 
@@ -35,11 +35,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-43e7f73cced657e01730d46297854b9b
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
+2012-11-20T02:57:54.000000Z
+a18dc3983306f99ab877e74eebea8ffa
+2012-07-04T14:20:02.871758Z
+1428
+steveblock@chromium.org
+has-props
 
 
 
@@ -60,6 +61,5 @@ sgk@chromium.org
 
 
 
-
-660
+723
 

@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/same-gyp-name
 http://gyp.googlecode.com/svn
 
 
 
-2009-11-16T08:09:26.994540Z
-759
-piman@chromium.org
+2012-09-21T04:54:53.768982Z
+1504
+thakis@chromium.org
 
 
 
@@ -26,6 +26,9 @@ piman@chromium.org
 
 78cadc50-ecff-11dd-a971-7dbc132099af
 
+library
+dir
+
 src
 dir
 
@@ -35,11 +38,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-66ecf611de6a18049db1afc63bf7e7be
-2009-11-16T08:09:26.994540Z
-759
-piman@chromium.org
+2012-11-20T02:57:53.000000Z
+a20585e5af82bb03788755cd8cd9a7d4
+2012-09-21T04:54:53.768982Z
+1504
+thakis@chromium.org
+has-props
 
 
 
@@ -60,8 +64,41 @@ piman@chromium.org
 
 
 
+784
+
+gyptest-library.py
+file
 
-801
+
+
+
+2012-11-20T02:57:53.000000Z
+d251f77318ee496b124a8aab5058b1bd
+2012-09-21T04:54:53.768982Z
+1504
+thakis@chromium.org
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+435
 
 gyptest-all.py
 file
@@ -69,11 +106,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-02271c9af10cd618b2df9632bfd02831
-2009-11-16T08:09:26.994540Z
-759
-piman@chromium.org
+2012-11-20T02:57:53.000000Z
+1fce2e58efa52ca7ac043ca037dc6d0e
+2012-09-21T04:54:53.768982Z
+1504
+thakis@chromium.org
+has-props
 
 
 
@@ -94,6 +132,5 @@ piman@chromium.org
 
 
 
-
-811
+794
 

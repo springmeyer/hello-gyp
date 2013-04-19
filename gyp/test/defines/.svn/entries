@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/defines
 http://gyp.googlecode.com/svn
 
 
 
-2011-11-10T00:23:26.087729Z
-1088
-thakis@chromium.org
+2012-12-10T11:20:44.472945Z
+1545
+torne@chromium.org
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 f4c1b8f4dd00373a8ff5874ae85cb3dc
 2009-10-22T20:02:37.997393Z
 721
@@ -66,10 +66,10 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-33c234bb9847bb2b112a58fb8793172b
-2011-11-10T00:23:26.087729Z
-1088
+2012-11-20T02:57:54.000000Z
+221d493bc38d176f8c8341628a838a76
+2012-05-18T16:05:04.387670Z
+1388
 thakis@chromium.org
 has-props
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-471
+489
 
 gyptest-defines-env.py
 file
@@ -100,12 +100,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2012-01-10T20:02:00.000000Z
 fcad3199624953ec6bb118489281696b
-2009-10-22T20:02:37.997393Z
-721
-sgk@chromium.org
-
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
+has-props
 
 
 
@@ -134,11 +134,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2012-01-10T20:02:00.000000Z
 cfb119936fcd0ffaf0ce59d09b812804
-2010-03-09T20:48:23.900498Z
-797
-mmoss@chromium.org
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 has-props
 
 
@@ -168,10 +168,10 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-2929dc29e5ba2c3da9edb948efad628d
-2011-11-10T00:23:26.087729Z
-1088
+2012-11-20T02:57:54.000000Z
+e304343f0548e8669c963d2aeeaccad8
+2012-05-18T16:05:04.387670Z
+1388
 thakis@chromium.org
 has-props
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-712
+740
 
 gyptest-defines-env-regyp.py
 file
@@ -202,11 +202,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-86807466d341f3cad419d9a77b78aa92
-2011-11-10T00:23:26.087729Z
-1088
-thakis@chromium.org
+2012-12-22T01:59:48.000000Z
+07f215c4114bc54cba8e3b4a62809799
+2012-12-10T11:20:44.472945Z
+1545
+torne@chromium.org
 has-props
 
 
@@ -228,7 +228,7 @@ has-props
 
 
 
-1332
+1350
 
 defines.c
 file
@@ -236,10 +236,10 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-042b3b96b39bac113cbc905b09b39812
-2011-11-10T00:23:26.087729Z
-1088
+2012-11-20T02:57:54.000000Z
+252c9b339b24ba766ef1ec891ffdfa8c
+2012-05-18T13:47:21.651963Z
+1387
 thakis@chromium.org
 has-props
 
@@ -262,5 +262,5 @@ has-props
 
 
 
-391
+462
 

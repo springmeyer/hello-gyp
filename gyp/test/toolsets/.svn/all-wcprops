@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/svn/!svn/ver/771/trunk/test/toolsets
+V 38
+/svn/!svn/ver/1607/trunk/test/toolsets
 END
 gyptest-toolsets.py
 K 25
 svn:wc:ra_dav:version-url
-V 57
-/svn/!svn/ver/721/trunk/test/toolsets/gyptest-toolsets.py
+V 58
+/svn/!svn/ver/1607/trunk/test/toolsets/gyptest-toolsets.py
 END
 toolsets.cc
 K 25
@@ -15,15 +15,21 @@ svn:wc:ra_dav:version-url
 V 49
 /svn/!svn/ver/771/trunk/test/toolsets/toolsets.cc
 END
+toolsets_shared.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1607/trunk/test/toolsets/toolsets_shared.cc
+END
 main.cc
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/svn/!svn/ver/771/trunk/test/toolsets/main.cc
+V 46
+/svn/!svn/ver/1607/trunk/test/toolsets/main.cc
 END
 toolsets.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 50
-/svn/!svn/ver/721/trunk/test/toolsets/toolsets.gyp
+V 51
+/svn/!svn/ver/1607/trunk/test/toolsets/toolsets.gyp
 END

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Copyright (c) 2011 Google Inc. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
@@ -32,11 +32,12 @@ class TestSequenceFunctions(unittest.TestCase):
 
   def test_EasyXml_escaping(self):
     original = '<test>\'"\r&\nfoo'
-    converted = '&lt;test&gt;&apos;&quot;&#xD;&amp;&#xA;foo'
+    converted = '&lt;test&gt;\'&quot;&#xD;&amp;&#xA;foo'
+    converted_apos = converted.replace("'", '&apos;')
     self.assertEqual(
       easy_xml.XmlToString(['test3', {'a': original}, original]),
       '<?xml version="1.0" encoding="utf-8"?><test3 a="%s">%s</test3>' %
-      (converted, converted))
+      (converted, converted_apos))
 
   def test_EasyXml_pretty(self):
     self.assertEqual(
@@ -73,8 +74,8 @@ class TestSequenceFunctions(unittest.TestCase):
         '</PropertyGroup>'
         '<Import Project="$(VCTargetsPath)\\Microsoft.Cpp.props"/>'
         '<PropertyGroup '
-            'Condition="&apos;$(Configuration)|$(Platform)&apos;=='
-                       '&apos;Debug|Win32&apos;" Label="Configuration">'
+            'Condition="\'$(Configuration)|$(Platform)\'=='
+                       '\'Debug|Win32\'" Label="Configuration">'
           '<ConfigurationType>Application</ConfigurationType>'
           '<CharacterSet>Unicode</CharacterSet>'
         '</PropertyGroup>'

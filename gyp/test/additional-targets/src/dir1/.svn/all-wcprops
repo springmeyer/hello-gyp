@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
-V 56
-/svn/!svn/ver/756/trunk/test/additional-targets/src/dir1
+V 57
+/svn/!svn/ver/1102/trunk/test/additional-targets/src/dir1
 END
 emit.py
 K 25
 svn:wc:ra_dav:version-url
-V 64
-/svn/!svn/ver/721/trunk/test/additional-targets/src/dir1/emit.py
+V 65
+/svn/!svn/ver/1102/trunk/test/additional-targets/src/dir1/emit.py
 END
 lib1.c
 K 25

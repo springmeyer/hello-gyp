@@ -1,12 +1,10 @@
-#!/usr/bin/python2.4
-
-# Copyright (c) 2009 Google Inc. All rights reserved.
+# Copyright (c) 2012 Google Inc. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
 """Visual Studio project reader/writer."""
 
-import common
+import gyp.common
 import gyp.easy_xml as easy_xml
 
 #------------------------------------------------------------------------------
@@ -208,5 +206,3 @@ class Writer(object):
     ]
     easy_xml.WriteXmlIfChanged(content, self.project_path,
                                encoding="Windows-1252")
-
-#------------------------------------------------------------------------------

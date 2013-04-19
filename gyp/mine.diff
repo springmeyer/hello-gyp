@@ -1,0 +1,27 @@
+Index: pylib/gyp/generator/make.py
+===================================================================
+--- pylib/gyp/generator/make.py	(revision 1550)
++++ pylib/gyp/generator/make.py	(working copy)
+@@ -1151,15 +1151,15 @@
+           quoter=EscapeCppDefine)
+ 
+       if self.flavor == 'mac':
+-        cflags = self.xcode_settings.GetCflags(configname)
+-        cflags_c = self.xcode_settings.GetCflagsC(configname)
+-        cflags_cc = self.xcode_settings.GetCflagsCC(configname)
++        #cflags = self.xcode_settings.GetCflags(configname)
++        #cflags_c = self.xcode_settings.GetCflagsC(configname)
++        #cflags_cc = self.xcode_settings.GetCflagsCC(configname)
+         cflags_objc = self.xcode_settings.GetCflagsObjC(configname)
+         cflags_objcc = self.xcode_settings.GetCflagsObjCC(configname)
+-      else:
+-        cflags = config.get('cflags')
+-        cflags_c = config.get('cflags_c')
+-        cflags_cc = config.get('cflags_cc')
++      #else:
++      cflags = config.get('cflags')
++      cflags_c = config.get('cflags_c')
++      cflags_cc = config.get('cflags_cc')
+ 
+       self.WriteLn("# Flags passed to all source files.");
+       self.WriteList(cflags, 'CFLAGS_%s' % configname)

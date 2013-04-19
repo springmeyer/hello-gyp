@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/rules-rebuild
 http://gyp.googlecode.com/svn
 
 
 
-2011-03-24T21:07:03.551271Z
-905
-jeanluc@google.com
+2012-05-08T20:07:32.291644Z
+1365
+grt@chromium.org
 
 
 
@@ -35,11 +35,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-888a51a6747a30b681c4b62da7549b8e
-2011-03-24T21:07:03.551271Z
-905
-jeanluc@google.com
+2012-11-20T02:57:54.000000Z
+cd83008e4dcf9ff4fc285b92a827e665
+2012-05-08T20:07:32.291644Z
+1365
+grt@chromium.org
 has-props
 
 
@@ -61,7 +61,7 @@ has-props
 
 
 
-1636
+2242
 
 gyptest-all.py
 file
@@ -69,11 +69,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2012-01-10T20:02:00.000000Z
 b6956b6604834a9571ce8be52740029e
-2011-03-24T21:07:03.551271Z
-905
-jeanluc@google.com
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 has-props
 
 

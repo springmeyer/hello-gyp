@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/891/trunk/test/configurations/invalid
+V 52
+/svn/!svn/ver/1613/trunk/test/configurations/invalid
 END
 type.gyp
 K 25
@@ -14,6 +14,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 63
 /svn/!svn/ver/827/trunk/test/configurations/invalid/sources.gyp
+END
+standalone_static_library.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1517/trunk/test/configurations/invalid/standalone_static_library.gyp
 END
 target_name.gyp
 K 25
@@ -66,6 +72,6 @@ END
 gyptest-configurations.py
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/!svn/ver/891/trunk/test/configurations/invalid/gyptest-configurations.py
+V 78
+/svn/!svn/ver/1613/trunk/test/configurations/invalid/gyptest-configurations.py
 END

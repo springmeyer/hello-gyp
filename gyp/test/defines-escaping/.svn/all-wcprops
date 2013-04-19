@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/svn/!svn/ver/994/trunk/test/defines-escaping
+V 46
+/svn/!svn/ver/1102/trunk/test/defines-escaping
 END
 defines-escaping.gyp
 K 25
@@ -18,6 +18,6 @@ END
 gyptest-defines-escaping.py
 K 25
 svn:wc:ra_dav:version-url
-V 73
-/svn/!svn/ver/994/trunk/test/defines-escaping/gyptest-defines-escaping.py
+V 74
+/svn/!svn/ver/1102/trunk/test/defines-escaping/gyptest-defines-escaping.py
 END

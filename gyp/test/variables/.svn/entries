@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/variables
 http://gyp.googlecode.com/svn
 
 
 
-2011-11-19T19:34:03.641402Z
-1094
-thakis@chromium.org
+2012-09-12T19:34:11.043854Z
+1496
+sbc@chromium.org
 
 
 
@@ -29,6 +29,12 @@ thakis@chromium.org
 commands
 dir
 
+variable-in-path
+dir
+
 filelist
+dir
+
+latelate
 dir
 

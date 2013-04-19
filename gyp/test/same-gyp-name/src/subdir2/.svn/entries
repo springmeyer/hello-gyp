@@ -1,7 +1,7 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/same-gyp-name/src/subdir2
 http://gyp.googlecode.com/svn
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 51fa7dd7f0023f5258ff84204110b2cc
 2009-11-16T08:09:26.994540Z
 759
@@ -66,7 +66,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 a9f74bac4685e55b6aaa6a04493e629e
 2009-11-16T08:09:26.994540Z
 759

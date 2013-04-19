@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/tools
 http://gyp.googlecode.com/svn
 
 
 
-2011-09-08T16:16:33.944849Z
-1035
-dmaclach@chromium.org
+2013-03-12T18:59:52.296001Z
+1593
+tony@chromium.org
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-ab58118e99f4fb98f42b89e91e2df1ef
-2011-05-26T19:31:50.163575Z
-929
-evan@chromium.org
+2012-01-10T20:02:00.000000Z
+71857136b133f9efb5311f306c16ed24
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 has-props
 
 
@@ -58,7 +58,7 @@ has-props
 
 
 
-2833
+2878
 
 pretty_vcproj.py
 file
@@ -66,11 +66,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-f40c37addff5c523cc3942c7eef6c7b7
-2010-01-08T14:58:07.256663Z
-771
-thomasvl@chromium.org
+2012-11-20T02:57:54.000000Z
+9d380b8b0732e125ec3af69abeade521
+2012-05-22T21:06:31.299372Z
+1392
+bradnelson@google.com
 has-props
 
 
@@ -92,9 +92,12 @@ has-props
 
 
 
-9563
+9586
 
 Xcode
+dir
+
+emacs
 dir
 
 pretty_sln.py
@@ -103,11 +106,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-111d194fe053c6c8bdb86de6e29a82d8
-2010-01-08T14:58:07.256663Z
-771
-thomasvl@chromium.org
+2012-11-20T02:57:54.000000Z
+d8efce4bae7c4afc56cc6405002e2511
+2012-05-22T21:06:31.299372Z
+1392
+bradnelson@google.com
 has-props
 
 
@@ -129,7 +132,7 @@ has-props
 
 
 
-5075
+5092
 
 pretty_gyp.py
 file
@@ -137,11 +140,12 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-2dc06e9b07d6f1d069df83c958638d5c
-2009-08-31T18:22:09.710134Z
-620
-gspencer@google.com
+2012-11-20T02:57:54.000000Z
+4a77d3a1802c9a6a349b3eb2cec2299b
+2012-05-25T21:36:14.946763Z
+1394
+bradnelson@google.com
+has-props
 
 
 
@@ -162,8 +166,7 @@ gspencer@google.com
 
 
 
-
-4924
+4756
 
 README
 file
@@ -171,7 +174,7 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2011-11-05T21:23:12.000000Z
 0edc01bc0cf706a94acc1d9dbd3e0ffb
 2009-02-09T19:15:51.154307Z
 139

@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/svn/!svn/ver/1096/trunk/test/copies/src
+/svn/!svn/ver/1566/trunk/test/copies/src
 END
 copies.gyp
 K 25
@@ -20,6 +20,18 @@ K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/!svn/ver/633/trunk/test/copies/src/file2
+END
+copies-updir.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1480/trunk/test/copies/src/copies-updir.gyp
+END
+copies-samedir.gyp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1566/trunk/test/copies/src/copies-samedir.gyp
 END
 copies-slash.gyp
 K 25

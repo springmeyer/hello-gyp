@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/same-target-name
 http://gyp.googlecode.com/svn
 
 
 
-2010-12-14T01:02:25.838318Z
-867
-bradnelson@google.com
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 
 
 
@@ -35,11 +35,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
+2012-01-10T20:02:00.000000Z
 0afcd40473940dcab468f66cdd0f232d
-2010-12-14T01:02:25.838318Z
-867
-bradnelson@google.com
+2011-11-28T16:07:19.276060Z
+1102
+maruel@chromium.org
 has-props
 
 

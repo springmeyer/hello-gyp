@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/rules-variables/src
 http://gyp.googlecode.com/svn
 
 
 
-2011-10-24T22:03:01.886015Z
-1082
-tony@chromium.org
+2012-04-05T18:23:06.939184Z
+1307
+scottmg@chromium.org
 
 
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 6731e3781fbb7c6a60d997fe947ce23b
 2011-10-24T22:03:01.886015Z
 1082
@@ -69,7 +69,7 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
+2011-11-05T21:23:11.000000Z
 3c0e848a511a033914bdd5c899b476de
 2011-10-24T22:03:01.886015Z
 1082
@@ -103,11 +103,11 @@ file
 
 
 
-2011-11-23T01:16:49.000000Z
-e0c088d10515dd2a4bcd5611769ab1a1
-2011-10-24T22:03:01.886015Z
-1082
-tony@chromium.org
+2012-05-02T06:20:02.000000Z
+792ac00fb059c4eb5c5dee2af19c821b
+2012-04-05T18:23:06.939184Z
+1307
+scottmg@chromium.org
 has-props
 
 
@@ -129,7 +129,7 @@ has-props
 
 
 
-768
+1353
 
 subdir
 dir

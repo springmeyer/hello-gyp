@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 35
-/svn/!svn/ver/872/trunk/test/cflags
+V 36
+/svn/!svn/ver/1545/trunk/test/cflags
 END
 cflags.c
 K 25
@@ -12,8 +12,8 @@ END
 gyptest-cflags.py
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/svn/!svn/ver/872/trunk/test/cflags/gyptest-cflags.py
+V 54
+/svn/!svn/ver/1545/trunk/test/cflags/gyptest-cflags.py
 END
 cflags.gyp
 K 25

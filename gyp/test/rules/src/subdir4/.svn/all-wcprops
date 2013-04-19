@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/!svn/ver/990/trunk/test/rules/src/subdir4
-END
-asm-function.asm
-K 25
-svn:wc:ra_dav:version-url
-V 63
-/svn/!svn/ver/990/trunk/test/rules/src/subdir4/asm-function.asm
+V 47
+/svn/!svn/ver/1534/trunk/test/rules/src/subdir4
 END
 program.c
 K 25
@@ -15,9 +9,15 @@ svn:wc:ra_dav:version-url
 V 56
 /svn/!svn/ver/990/trunk/test/rules/src/subdir4/program.c
 END
+asm-function.assem
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1534/trunk/test/rules/src/subdir4/asm-function.assem
+END
 build-asm.gyp
 K 25
 svn:wc:ra_dav:version-url
-V 60
-/svn/!svn/ver/990/trunk/test/rules/src/subdir4/build-asm.gyp
+V 61
+/svn/!svn/ver/1534/trunk/test/rules/src/subdir4/build-asm.gyp
 END

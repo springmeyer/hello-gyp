@@ -1,7 +1,7 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/generator-output/src/subdir3
 http://gyp.googlecode.com/svn
 
@@ -35,7 +35,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 1d4124cb5f39e3e57ca8d4b09a82754f
 2009-10-22T20:02:37.997393Z
 721
@@ -69,7 +69,7 @@ file
 
 
 
-2011-11-23T01:16:48.000000Z
+2011-11-05T21:23:10.000000Z
 1c46733ead84d4f26ef96cd0c5c39de1
 2009-09-04T17:57:42.140993Z
 638

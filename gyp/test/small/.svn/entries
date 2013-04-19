@@ -1,15 +1,15 @@
 10
 
 dir
-1098
+1617
 http://gyp.googlecode.com/svn/trunk/test/small
 http://gyp.googlecode.com/svn
 
 
 
-2011-08-19T18:51:16.888112Z
-1004
-jeanluc@google.com
+2012-05-11T20:34:38.720494Z
+1377
+bradnelson@google.com
 
 
 
@@ -32,11 +32,11 @@ file
 
 
 
-2011-11-23T01:16:50.000000Z
-b66eca4b0aed7ded1f276adea814f728
-2011-08-19T18:51:16.888112Z
-1004
-jeanluc@google.com
+2012-11-20T02:57:53.000000Z
+5cf179e924d3e25dd5a3a5d19c2769a8
+2012-05-11T20:34:38.720494Z
+1377
+bradnelson@google.com
 has-props
 
 
@@ -58,5 +58,5 @@ has-props
 
 
 
-1332
+1405
 
