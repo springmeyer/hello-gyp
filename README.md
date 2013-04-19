@@ -7,17 +7,17 @@ project files for various build tools like make, xcode, visual studio.
 
 For example, it is able to generate make or scons files that run fast.
 
-It is also able to generate xcode and visual studio files as if they were
-hand created - so cleaner to hand edit or extend.
+It is also able to generate xcode and visual studio files.
 
-Its a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
+It's a bit like cmake, except: http://code.google.com/p/gyp/wiki/GypVsCMake
 
-This demo shows how to build a hello world c++ library (called 'mylib')
-and command line program that uses it, by invoking gyp to general the
-project files needed by your preferred build tool.
+This demo shows how to build:
+
+ - a hello world c++ library (called 'mylib')
+ - a command line program that uses/links to it
+ - a node.js module that depends on mylib via it gyp file
 
 See also: http://code.google.com/p/gyp/wiki/GypTesting
-
 
 ## Setup
 
@@ -41,8 +41,7 @@ Now grab this sample project:
 ## no build system
 
 First, it's important to remember that simple codebases, like this
-"myapp" hello world, don't actually need a fancy build system at all
-so gyp would likely be overkill.
+"myapp" hello world, don't actually need a fancy build system.
 
 You can build the library and program "by hand" like:
 
@@ -61,35 +60,41 @@ You can build the library and program "by hand" like:
     hello
 
 But, as your projects grow, or you wish to have other projects build against this
-project, gyp can help.
+project, gyp can help immensely.
 
 
 ## make
 
 ### build
 
-    gyp mylib.gyp --depth=. -f make --generator-output=./projects/makefiles
-    V=1 make -C ./projects/makefiles/
+    gyp mylib.gyp --depth=. -f make --generator-output=./build/makefiles
+    V=1 make -C ./build/makefiles/
 
 ### test
 
-    $ ./projects/makefiles/out/Default/myapp 
+    $ ./build/makefiles/out/Release/myapp
     hello
 
 And the node module:
 
-    node -e "console.log(require('./projects/makefiles/out/Default/myaddon.node'))"
+    npm install node-gyp
+    node_modules/.bin/node-gyp configure build
+
+Test the node module:
+
+    $ node -e "console.log(require('./build/Release/modulename.node').hello())"
+    hello
 
 ## scons
 
 ### build
 
-    gyp mylib.gyp --depth=. -f scons --generator-output=./projects/sconsfiles
-    scons -C projects/sconsfiles/
+    gyp mylib.gyp --depth=. -f scons --generator-output=./build/sconsfiles
+    scons -C ./build/sconsfiles/
 
 ### test
 
-    $ ./projects/sconsfiles/Default/myapp 
+    $ ./build/sconsfiles/Release/myapp
     hello
 
 
@@ -97,13 +102,13 @@ And the node module:
 
 ### build
 
-    gyp mylib.gyp --depth=. -f xcode --generator-output=./projects/xcodefiles
-    xcodebuild -project ./projects/xcodefiles/mylib.xcodeproj
+    gyp mylib.gyp --depth=. -f xcode --generator-output=./build/xcodefiles
+    xcodebuild -project ./build/xcodefiles/mylib.xcodeproj
 
 ### test
 
     # xcode does not respect subdirectory so `build` goes into the main directory
-    $ ./build/Default/myapp
+    $ ./build/Release/myapp
     hello
 
 ## ninja
@@ -114,7 +119,7 @@ Install it like:
 
     git clone git://github.com/martine/ninja.git
     cd ninja
-    ./bootstrap
+    ./bootstrap.py
     cp ninja /usr/local/bin/
 
 Make sure it works:
@@ -125,16 +130,11 @@ Make sure it works:
 Now go back to the hello-gyp project folder and build the sample:
 
     gyp mylib.gyp --depth=. -f ninja
-    ninja -v -C out/Default/ -f build.ninja
-    # linking fails on 'ld: unknown option: --threads'
-    # so manually link:
-    cd out/Default
-    g++ -o myapp obj/bin/myapp.myapp.o obj/mylib.a -lz
-    cd ../../
+    ninja -v -C out/Release/ -f build.ninja
 
 ### test
 
-    $ ./out/Default/myapp 
+    $ ./out/Relase/myapp
     hello
 
 ## Microsft Visual Studio C++ 2010 Expres
@@ -146,7 +146,7 @@ Note, this assumes you've downloaded and installed the free 2010 C++ studio.
 
 ### test
 
-    c:\hello-gyp>Default\myapp.exe
+    c:\hello-gyp>Release\myapp.exe
     hello
 
 
