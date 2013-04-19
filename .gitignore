@@ -5,3 +5,4 @@ out/
 manual-build
 .svn
 *pyc
+node_modules
