@@ -1,46 +1,0 @@
-10
-
-dir
-1617
-http://gyp.googlecode.com/svn/trunk/test/ninja
-http://gyp.googlecode.com/svn
-
-
-
-2012-12-09T04:46:20.998140Z
-1544
-Yukawa@chromium.org
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78cadc50-ecff-11dd-a971-7dbc132099af
-
-solibs_avoid_relinking
-dir
-
-s-needs-no-depfiles
-dir
-
-action_dependencies
-dir
-
-use-custom-environment-files
-dir
-
-chained-dependency
-dir
-
-normalize-paths-win
-dir
-

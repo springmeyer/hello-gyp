@@ -1,235 +1,0 @@
-10
-
-dir
-1617
-http://gyp.googlecode.com/svn/trunk/test
-http://gyp.googlecode.com/svn
-
-
-
-2013-04-17T18:21:30.907928Z
-1613
-bradnelson@google.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78cadc50-ecff-11dd-a971-7dbc132099af
-
-standalone-static-library
-dir
-
-actions-subdir
-dir
-
-dependency-copy
-dir
-
-dependencies
-dir
-
-compiler-override
-dir
-
-configurations
-dir
-
-custom-generator
-dir
-
-builddir
-dir
-
-external-cross-compile
-dir
-
-mac
-dir
-
-many-actions
-dir
-
-restat
-dir
-
-self-dependency
-dir
-
-toplevel-dir
-dir
-
-actions-bare
-dir
-
-variables
-dir
-
-no-output
-dir
-
-make
-dir
-
-cxxflags
-dir
-
-same-rule-output-file-name
-dir
-
-same-target-name
-dir
-
-msvs
-dir
-
-actions-multiple
-dir
-
-rules
-dir
-
-same-target-name-different-directory
-dir
-
-win
-dir
-
-actions-none
-dir
-
-ninja
-dir
-
-linux
-dir
-
-same-gyp-name
-dir
-
-include_dirs
-dir
-
-defines-escaping
-dir
-
-build-option
-dir
-
-small
-dir
-
-gyp-defines
-dir
-
-hard_dependency
-dir
-
-make_global_settings
-dir
-
-subdirectory
-dir
-
-assembly
-dir
-
-additional-targets
-dir
-
-copies
-dir
-
-link-objects
-dir
-
-generator-output
-dir
-
-sibling
-dir
-
-escaping
-dir
-
-rules-variables
-dir
-
-library
-dir
-
-lib
-dir
-
-compilable
-dir
-
-rules-dirname
-dir
-
-rename
-dir
-
-exclusion
-dir
-
-relative
-dir
-
-home_dot_gyp
-dir
-
-rules-rebuild
-dir
-
-same-source-file-name
-dir
-
-product
-dir
-
-module
-dir
-
-standalone
-dir
-
-ios
-dir
-
-sanitize-rule-names
-dir
-
-cflags
-dir
-
-actions
-dir
-
-multiple-targets
-dir
-
-hello
-dir
-
-intermediate_dir
-dir
-
-toolsets
-dir
-
-errors
-dir
-
-defines
-dir
-
