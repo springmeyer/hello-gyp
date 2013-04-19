@@ -3,10 +3,13 @@ all: mylib
 
 
 ./build/makefiles/Makefile:
-	python gyp/gyp mylib.gyp --depth=. -f make --generator-output=./build/makefiles
+	@gyp mylib.gyp --depth=. -f make --generator-output=./build/makefiles
 
 mylib: ./build/makefiles/Makefile
-	make -C ./build/makefiles/
+	@make -C ./build/makefiles/
+
+test: mylib
+	@./build/makefiles/out/Release/myapp
 
 ./node_modules/.bin/node-gyp:
 	npm install node-gyp
@@ -18,4 +21,8 @@ node: node_modules/.bin/node-gyp
 clean:
 	rm -rf ./build
 	rm -rf ./node_modules
+	rm -rf ./out
+	rm -rf ./node-addon/build
 
+
+.PHONY: test
