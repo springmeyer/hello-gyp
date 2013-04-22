@@ -17,7 +17,10 @@ This demo shows how to build:
  - a command line program that uses/links to it
  - a node.js module that depends on mylib via it gyp file
 
-See also: http://code.google.com/p/gyp/wiki/GypTesting
+See also:
+
+  - http://n8.io/converting-a-c-library-to-gyp/
+  - http://code.google.com/p/gyp/wiki/GypTesting
 
 ## Setup
 
