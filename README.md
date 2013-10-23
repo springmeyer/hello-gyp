@@ -137,7 +137,7 @@ Now go back to the hello-gyp project folder and build the sample:
 
 ### test
 
-    $ ./out/Relase/myapp
+    $ ./out/Release/myapp
     hello
 
 ## Microsft Visual Studio C++ 2010 Expres
