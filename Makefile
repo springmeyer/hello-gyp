@@ -1,15 +1,16 @@
+all: ./build ./build/out/Release/myapp
 
-all: mylib
+./deps/gyp:
+	git clone --depth 1 https://chromium.googlesource.com/external/gyp.git ./deps/gyp
 
+./build: ./deps/gyp
+	deps/gyp/gyp mylib.gyp --depth=. -f make --generator-output=./build
 
-./build/makefiles/Makefile:
-	@gyp mylib.gyp --depth=. -f make --generator-output=./build/makefiles
+./build/out/Release/myapp: ./build/
+	make -C ./build
 
-mylib: ./build/makefiles/Makefile
-	@make -C ./build/makefiles/
-
-test: mylib
-	@./build/makefiles/out/Release/myapp
+test: ./build/out/Release/myapp
+	./build/out/Release/myapp
 
 ./node_modules/.bin/node-gyp:
 	npm install node-gyp

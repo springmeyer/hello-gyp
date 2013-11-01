@@ -22,51 +22,23 @@ See also:
   - http://n8.io/converting-a-c-library-to-gyp/
   - http://code.google.com/p/gyp/wiki/GypTesting
 
-## Setup
+## Usage
 
-First install gyp if you do not have it already. It's just python:
-
-    svn checkout http://gyp.googlecode.com/svn/trunk/ gyp
-    cd gyp
-    sudo python setup.py install
-    
-Now you should have the `gyp` program on your `PATH`:
-
-    $ which gyp
-    /usr/local/bin/gyp
-
-Now grab this sample project:
+Just grab this sample project and build it:
 
     git clone git://github.com/springmeyer/hello-gyp.git
     cd hello-gyp
+    make
 
-
-## no build system
-
-First, it's important to remember that simple codebases, like this
-"myapp" hello world, don't actually need a fancy build system.
-
-You can build the library and program "by hand" like:
-
-    mkdir manual-build
-
-    # build static library
-    g++ -static -I./include -c ./src/implementation.cc -o manual-build/mylib.o
-    ar rcsT manual-build/libmylib.a manual-build/mylib.o
-
-    # build program and link the library
-    g++ -o manual-build/myapp  -I./include bin/myapp.cc -L./manual-build -lmylib
-
-### test
-
-    $ ./manual-build/myapp
-    hello
-
-But, as your projects grow, or you wish to have other projects build against this
-project, gyp can help immensely.
-
+To learn more about how to do this manually, or for different plaforms, read on.
 
 ## make
+
+The below commands assume you have gyp installed globally. You can do this like:
+
+    git clone https://chromium.googlesource.com/external/gyp.git
+    cd gyp
+    sudo python setup.py install
 
 ### build
 
