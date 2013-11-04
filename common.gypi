@@ -52,6 +52,10 @@
                     "OTHER_CFLAGS": [
                         "-g",
                         "-O0"
+                    ],
+                    "OTHER_CPLUSPLUSFLAGS": [
+                        "-g",
+                        "-O0"
                     ]
                 }
             },
