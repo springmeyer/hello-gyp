@@ -12,6 +12,20 @@ all: ./build ./build/out/Release/myapp
 test: ./build/out/Release/myapp
 	./build/out/Release/myapp
 
+no-gyp-libstdcpp:
+	mkdir -p out
+	rm -f out/implementation.o
+	c++ -Iinclude -O3 -DNDEBUG -c -o out/implementation.o src/implementation.cc
+	rm -f out/libmylib.dylib
+	c++ -dynamiclib -o out/libmylib.dylib out/implementation.o
+
+no-gyp-libcpp:
+	mkdir -p out
+	rm -f out/implementation.o
+	c++ -Iinclude -std=c++11 -stdlib=libc++ -O3 -DNDEBUG -c -o out/implementation.o src/implementation.cc
+	rm -f out/libmylib.dylib
+	c++ -dynamiclib -stdlib=libc++ -o out/libmylib.dylib out/implementation.o
+
 ./node_modules/.bin/node-gyp:
 	npm install node-gyp
 
