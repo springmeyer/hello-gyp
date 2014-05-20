@@ -16,7 +16,7 @@ install:
   - set MSBUILD_PLATFORM=%platform%
   - if "%MSBUILD_PLATFORM%" == "x86" set MSBUILD_PLATFORM=Win32
   - msbuild mylib.sln /clp:Verbosity=minimal /nologo /p:Configuration=%configuration%;Platform=%MSBUILD_PLATFORM%
-  - %configuration%\myapp.exe
+  - .\"%configuration%"\myapp.exe
 
 build: OFF
 
