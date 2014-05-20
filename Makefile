@@ -7,7 +7,7 @@ all: ./build ./build/out/Release/myapp
 	deps/gyp/gyp mylib.gyp --depth=. -f make --generator-output=./build
 
 ./build/out/Release/myapp: ./build/
-	make -C ./build
+	make -C ./build V=1
 
 test: ./build/out/Release/myapp
 	./build/out/Release/myapp

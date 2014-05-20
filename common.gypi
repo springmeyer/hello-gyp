@@ -1,81 +1,52 @@
 {
-    "variables": {
-        "conditions": [
-            [
-                "OS == 'mac'",
-                {
-                    "target_arch%": "x64"
-                },
-                {
-                    "target_arch%": "ia32"
-                }
-            ]
-        ]
-    },
-    "target_defaults": {
-        "default_configuration": "Release",
-        "defines": [
-
-        ],
-        "conditions": [
-            [
-                "OS == 'mac'",
-                {
-                    "defines": [
-                        "DARWIN"
-                    ]
-                },
-                {
-                    "defines": [
-                        "LINUX"
-                    ]
-                }
-            ],
-            [
-                "OS == 'mac' and target_arch == 'x64'",
-                {
-                    "xcode_settings": {
-                        "ARCHS": [
-                            "x86_64"
-                        ]
-                    }
-                }
-            ]
-        ],
-        "configurations": {
-            "Debug": {
-                "cflags": [
-                    "-g",
-                    "-O0"
-                ],
-                "xcode_settings": {
-                    "OTHER_CFLAGS": [
-                        "-g",
-                        "-O0"
-                    ],
-                    "OTHER_CPLUSPLUSFLAGS": [
-                        "-g",
-                        "-O0"
-                    ]
-                }
+  "conditions": [
+    ["OS=='win'", {
+          "target_defaults": {
+            "default_configuration": "Release_x64",
+            "configurations": {
+              "Debug_Win32": {
+                "msvs_configuration_platform": "Win32",
+              },
+              "Debug_x64": {
+                "msvs_configuration_platform": "x64",
+              },
+              "Release_Win32": {
+                "msvs_configuration_platform": "Win32",
+              },
+              "Release_x64": {
+                "msvs_configuration_platform": "x64",
+              }
+            }
+          }
+    }, {
+        "target_defaults": {
+            "default_configuration": "Release",
+            "xcode_settings": {
             },
-            "Release": {
-                "cflags": [
-                    "-O3"
-                ],
-                "defines": [
-                    "NDEBUG"
-                ],
-                "xcode_settings": {
-                    "OTHER_CFLAGS": [
-                        "-O3"
+            "configurations": {
+                "Debug": {
+                    "defines": [
+                        "DEBUG"
                     ],
-                    "OTHER_CPLUSPLUSFLAGS": [
-                        "-O3",
-                        "-DNDEBUG"
-                    ]
+                    "xcode_settings": {
+                        "GCC_OPTIMIZATION_LEVEL": "0",
+                        "GCC_GENERATE_DEBUGGING_SYMBOLS": "YES"
+                    }
+                },
+                "Release": {
+                    "defines": [
+                        "NDEBUG"
+                    ],
+                    "xcode_settings": {
+                        "GCC_OPTIMIZATION_LEVEL": "3",
+                        "GCC_GENERATE_DEBUGGING_SYMBOLS": "NO",
+                        "DEAD_CODE_STRIPPING": "YES",
+                        "GCC_INLINES_ARE_PRIVATE_EXTERN": "YES"
+                    }
                 }
             }
         }
-    }
+    }]
+  ]
 }
+
