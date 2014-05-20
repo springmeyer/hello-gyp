@@ -1,0 +1,19 @@
+
+platform:
+  - x64
+  - x86
+
+install:
+  - SET PATH=c:\python27;%PATH%
+  - git clone --depth 1 https://chromium.googlesource.com/external/gyp.git gyp
+  - python gyp/gyp mylib.gyp --depth=. -f msvs -G msvs_version=2013
+  - msbuild mylib.sln
+  - Release\myapp.exe
+
+build: OFF
+
+test: OFF
+
+test_script: OFF
+
+deploy: OFF
