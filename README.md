@@ -1,5 +1,9 @@
 # gyp hello world
 
+[![Build Status](https://secure.travis-ci.org/springmeyer/hello-gyp.svg)](https://travis-ci.org/springmeyer/hello-gyp)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/9b57lcato29u73uv)](https://ci.appveyor.com/project/springmeyer/hello-gyp)
+
 [GYP can Generate Your Projects](http://code.google.com/p/gyp/).
 
 It is a pre-build system that uses a json config to generate optimized
