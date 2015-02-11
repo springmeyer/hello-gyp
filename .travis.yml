@@ -4,11 +4,20 @@ compiler:
  - clang
  - gcc
 
+os:
+ - osx
+ - linux
+
+matrix:
+  exclude:
+     - os: osx
+       compiler: gcc
+
 before_install:
- - sudo apt-get update -qq
+ - true
 
 install:
- - sudo apt-get -qq install build-essential
+ - true
 
 before_script:
  - make
